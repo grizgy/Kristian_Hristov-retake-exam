@@ -20,6 +20,6 @@ jobs:
     - name: Install the dependencies   
       run: npm install
     - name: RUN the UNIT tests  
-      run: npm run tests:unit
+      run: npm run test:unit
     - name: Display Softuni name
       run: echo Kristian_Hristov
